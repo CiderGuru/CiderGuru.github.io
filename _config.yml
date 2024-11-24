@@ -1,19 +1,17 @@
-title: Your awesome title
+title: A Very Stable Milking Stool
 author:
-  name: GitHub User
-  email: your-email@domain.com
-
+  name: A Very Stable Milking STool
+  email: stool@stablemilkingstool.co.uk
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  A Very Stable Website, for Very Stable People.
 
 # Build settings
 
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
+remote_theme: jekyll/minima
 
 # As of November 2023, GitHub Pages still uses Minima 2.5.1 (https://pages.github.com/versions/). 
 # If you want to use the latest Minima version on GitHub Pages, use the following setting and 
@@ -22,7 +20,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
+  # - jekyll-seo-tag
 
 # Theme-specific settings
 
@@ -32,7 +30,7 @@ header_pages:
   - about.md
 
 # Set to `true` to show excerpts on the homepage.
-#show_excerpts: false
+show_excerpts: false
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
@@ -44,7 +42,7 @@ minima:
   # solarized-light	   Light variant of solarized color scheme.
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
-  skin: classic
+  skin: dark
   
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
@@ -52,7 +50,7 @@ minima:
   #date_format: "%b-%d-%Y"
 
   # Generate social links in footer.
-  #social_links:
+  social_links:
   #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #  - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #  - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
@@ -67,8 +65,9 @@ minima:
   #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
   #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
   #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
-  #  - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
-  #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
-  #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+  # - { platform: twitter,        user_url: "https://twitter.com/MonkeyOfStool" }
+    - { platform: x,              user_url: "https://x.com/MonkeyOfStool" }
+    - { platform: bluesky,        user_url: "https://x.com/MonkeyOfStool" }
+    - { platform: youtube,        user_url: "https://www.youtube.com/@AVeryStableMilkingStool" }
 
 
